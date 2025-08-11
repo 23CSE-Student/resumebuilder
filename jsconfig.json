@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": []  // ⛔ Tells VS Code: "Don't load all global @types/* libraries"
+  },
+  "include": ["src"]
+}
